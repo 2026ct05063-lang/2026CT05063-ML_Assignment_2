@@ -1,0 +1,3 @@
+This Folder contains all the models used in the assignment. 
+- A zip folder
+- Python code
