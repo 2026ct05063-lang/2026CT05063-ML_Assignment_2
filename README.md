@@ -34,7 +34,7 @@ Classification type: Binary classification
 Target classes:
 <=50K – Annual income less than or equal to $50,000.
 >50K – Annual income greater than $50,000.
->
+
 Note: The Dataset is take from UCI repository
 
 **Dataset characteristics after cleaning:**
