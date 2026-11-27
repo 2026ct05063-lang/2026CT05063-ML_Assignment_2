@@ -116,6 +116,9 @@ The models were evaluated using:
 
 Based on the combined accuracy, F1 Score and MCC results, Random Forest was identified as the best overall-performing model.
 
+<img width="708" height="419" alt="Screenshot 2026-11-27 at 5 29 09 PM" src="https://github.com/user-attachments/assets/24b3708c-4d0d-4b88-873b-a28697a6539f" />
+
+
 ## 9. Technologies and Libraries
 
 **Programming Language:** Python
