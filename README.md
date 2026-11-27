@@ -5,11 +5,11 @@
 
 **BITS Pilani | M.Tech – Machine Learning**
 
-## 1. Project Overview
+## 1. Problem Statement
 
-This project focuses on developing supervised machine learning classification models to predict whether an individual's annual income exceeds $50,000 using the Adult Census Income dataset.
+The objective of this project is to develop supervised machine learning classification models to predict whether an individual's annual income exceeds $50,000 based on demographic and employment-related attributes.
 
-Five machine learning algorithms are implemented and evaluated using multiple classification performance metrics.
+The project uses the Adult Census Income dataset and implements five classification algorithms. Their performance is evaluated using multiple classification metrics to identify the most suitable model.
 
 ## 2. Project Objectives
 
@@ -22,8 +22,19 @@ Five machine learning algorithms are implemented and evaluated using multiple cl
 
 ## 3. Dataset Description
 
-The Adult Census Income dataset contains demographic and employment-related information used to predict an individual's income category.
+Dataset: Adult Census Income Dataset
 
+The dataset contains demographic, educational, employment and financial information about individuals.
+Initial dataset records: 48,842
+Records after duplicate removal: 48,790
+Input features: 14
+Target variable: income
+Classification type: Binary classification
+
+Target classes:
+<=50K – Annual income less than or equal to $50,000.
+>50K – Annual income greater than $50,000.
+>
 Note: The Dataset is take from UCI repository
 
 **Dataset characteristics after cleaning:**
@@ -46,16 +57,13 @@ Note: The Dataset is take from UCI repository
 
 The following preprocessing activities were performed:
 
-1. Dataset loading and initial inspection.
-2. Identification of missing values.
-3. Duplicate record identification and removal.
-4. Target variable normalization and binary encoding.
-5. Numerical and categorical feature identification.
+1. Dataset inspection and validation.
+2. Duplicate record identification and removal.
+3. Missing value identification and treatment.
+4. Exploratory Data Analysis (EDA).
+5. Numerical feature preprocessing and scaling.
 6. Categorical feature encoding.
-7. Numerical feature scaling.
-8. Stratified 80:20 train-test split.
-
-The final preprocessed feature matrix contained 105 features.
+7. Training and testing data splitting.
 
 ## 5. Machine Learning Algorithms
 
@@ -144,12 +152,38 @@ Open the Jupyter Notebook using Google Colab or a compatible Jupyter environment
 
 ## 12. Conclusion
 
-This assignment demonstrates the application of supervised machine learning algorithms for binary income classification.
+## Logistic Regression
 
-Five classification algorithms were implemented and evaluated using six performance metrics.
+Achieved 85.20% accuracy and an F1-score of 0.6620. It obtained the highest ROC-AUC of 0.9081, demonstrating strong discriminatory capability between the two income classes.
 
-Random Forest demonstrated the strongest overall performance based on accuracy, F1 Score and Matthews Correlation Coefficient, while Logistic Regression achieved the highest ROC-AUC.
+## Decision Tree
 
-The experiment highlights the importance of data preprocessing, model evaluation and comparative analysis in developing effective machine learning classification solutions.
+Achieved 82.14% accuracy and an F1-score of 0.6310. It obtained a recall of 0.6378 for the higher-income class but showed comparatively lower overall performance.
 
+## kNN
+
+Achieved 83.89% accuracy and an F1-score of 0.6442. It provided reasonably balanced classification performance but did not outperform Logistic Regression or Random Forest.
+
+## Naive Bayes
+
+Achieved 59.90% accuracy and a recall of 0.9336. Although it identified most higher-income individuals, its low precision of 0.3672 indicates a high number of false-positive predictions.
+
+## Random Forest (Ensemble)
+
+Achieved the highest accuracy of 85.58%, F1-score of 0.6777 and MCC of 0.5878. It demonstrated the strongest overall classification performance among the five evaluated algorithms.
+
+## Overall Winner
+
+Random Forest is the overall winner for this dataset.
+
+It achieved the highest accuracy, F1-score and Matthews Correlation Coefficient. Its ensemble learning approach provided better overall classification performance than the other evaluated algorithms.
+
+However, Logistic Regression achieved a slightly higher ROC-AUC of 0.9081 compared to Random Forest's 0.9050.
+
+Considering the overall evaluation metrics, Random Forest is selected as the best-performing model for the Adult Census Income classification problem.
+
+Finally,
+This project successfully implemented and evaluated five supervised machine learning classification algorithms using the Adult Census Income dataset.
+
+The experimental results indicate that Random Forest provides the best overall performance, while Logistic Regression demonstrates excellent discriminatory capability.
 ---
