@@ -96,6 +96,16 @@ The models were evaluated using:
 | Naive Bayes | 0.5990 | 0.3672 | 0.9336 | 0.5271 | 0.8174 | 0.3736 |
 | Random Forest | **0.8558** | 0.7289 | 0.6331 | **0.6777** | 0.9050 | **0.5878** |
 
+## Visulizations
+<img width="595" height="480" alt="Screenshot 2026-11-27 at 5 23 53 PM" src="https://github.com/user-attachments/assets/b832c766-2c8e-434d-a3cb-a5f59333aa59" />
+<img width="595" height="480" alt="Screenshot 2026-11-27 at 5 24 17 PM" src="https://github.com/user-attachments/assets/602213e0-c78c-4413-b26e-00680d24d6f1" />
+<img width="595" height="480" alt="Screenshot 2026-11-27 at 5 24 42 PM" src="https://github.com/user-attachments/assets/3ef46db1-496a-43a0-8ccd-c42e1cc754af" />
+<img width="595" height="480" alt="Screenshot 2026-11-27 at 5 25 03 PM" src="https://github.com/user-attachments/assets/d6e30347-3360-4875-ad50-e476ac2c2357" />
+<img width="595" height="480" alt="Screenshot 2026-11-27 at 5 25 29 PM" src="https://github.com/user-attachments/assets/52616a01-ea29-4793-b1ca-057dc52d30e3" />
+<img width="1197" height="699" alt="Screenshot 2026-11-27 at 5 26 33 PM" src="https://github.com/user-attachments/assets/1fc3c6bc-5b2b-4037-9fde-28c03daa5a26" />
+<img width="1403" height="699" alt="Screenshot 2026-11-27 at 5 26 50 PM" src="https://github.com/user-attachments/assets/a518e698-d357-41d8-9c59-cfeb59f9062f" />
+
+
 ## 8. Results and Observations
 
 - Random Forest achieved the highest accuracy of 85.58%.
